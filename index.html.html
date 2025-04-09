@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Johanes & Livia Wedding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio autoplay loop hidden>
+    <source src="wedding_music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <header class="hero">
+    <div class="overlay">
+      <h1>Johanes & Livia</h1>
+      <p>Dengan sukacita kami mengundang Anda merayakan hari bahagia kami</p>
+    </div>
+  </header>
+
+  <section class="details">
+    <h2>Detail Acara</h2>
+    <p>Tanggal & lokasi akan segera kami informasikan.</p>
+    <div id="countdown"></div>
+  </section>
+
+  <section class="gallery">
+    <h2>Galeri</h2>
+    <div class="gallery-container">
+      <img src="photo1.jpg" alt="Prewedding 1">
+      <img src="photo2.jpg" alt="Prewedding 2">
+      <img src="photo3.jpg" alt="Prewedding 3">
+    </div>
+  </section>
+
+  <section class="rsvp">
+    <h2>Konfirmasi Kehadiran</h2>
+    <form action="https://formsubmit.co/your-email@example.com" method="POST">
+      <input type="text" name="name" placeholder="Nama Anda" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <select name="attendance" required>
+        <option value="">Konfirmasi Kehadiran</option>
+        <option value="Hadir">Hadir</option>
+        <option value="Tidak Hadir">Tidak Hadir</option>
+      </select>
+      <textarea name="message" placeholder="Ucapan atau doa..."></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Dengan kasih,</p>
+    <h3>Johanes & Livia</h3>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

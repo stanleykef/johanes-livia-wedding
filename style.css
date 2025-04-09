@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #fdfaf6;
+  color: #333;
+}
+
+.hero {
+  background: url('wedding-background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.details, .gallery, .rsvp {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery-container img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.rsvp form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, textarea, button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #eab676;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+  background: #fff5eb;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
